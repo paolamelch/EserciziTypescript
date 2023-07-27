@@ -8,7 +8,7 @@
 
 interface LanguagesType<Type> {
     name: string;
-    languages: any ;
+    languages: Type;
 }
 
 const languagesObj1: LanguagesType<string> = {
